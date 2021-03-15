@@ -22,22 +22,15 @@ public class TC_PlayGame extends BaseClass {
 		driver.get(url);
 		playPage pg = new playPage(driver);
 		pg.clickPlay();
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
+		Thread.sleep(2000);
+		
 		WebElement guestBtn = driver.findElement(By.id("guest-button"));
 		guestBtn.click();
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		
-			
+		Thread.sleep(5000);
+		
+		
 			try {
 				WebElement board = driver.findElement(By.xpath("//*[@class='board']"));                       // We Play White
 				Actions actions = new Actions(driver);

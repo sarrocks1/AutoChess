@@ -4,34 +4,7 @@ import java.util.ArrayList;
 
 public class WsanToFenConverter {
 	public static void main(String args[]){
-//		String fen1 = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR";
-//		String san = "e4";
-//		String refen = sanFenConverter(fen1,san);
-//		String sanm = "h4";
-//		String refenm = sanFenConverter(refen,sanm);
-//		String san2 = "Rh3";
-//		String refen2 = sanFenConverter(refenm,san2);
-//		String san3 = "a5";
-//		String refen3 = sanFenConverter(refen2,san3);
-//		String san4 = "a6";
-//		String refen4 = sanFenConverter(refen3,san4);
-//		String san5 = "Rha3";
-//		String refen5 = sanFenConverter(refen4,san5);
-//		String san6 = "Ra5";
-//		String refen6 = sanFenConverter(refen5,san6);
-//		String san7 = "R1xa3";
-//		String refen7 = sanFenConverter(refen6,san7);
-//		String san8 = "e4";
-//		String refen8 = sanFenConverter(refen7,san8);
-//		String san9 = "Nc3";
-//		String refen9 = sanFenConverter(refen8,san9);
-//		String san10 = "Nce2";
-//		String refen10 = sanFenConverter(refen9,san10);
-//		String san11 = "Nf4";
-//		String refen11 = sanFenConverter(refen10,san11);
-//		String san12 = "Kxe2";
-//		String refen12 = sanFenConverter(refen11,san12);
-//		String refen13 = sanFenConverter("rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR","d4");
+
 	}
 	
 	public String sanFenConverter(String fen , String san){
@@ -66,16 +39,7 @@ public class WsanToFenConverter {
 				n=0;
 			}
 		}
-//		for(int i=0;i<8;i++){
-//			for(int j=0;j<8;j++){
-//				System.out.print(mat1[i][j]+" ");
-//	
-//				
-//			}
-//			System.out.print("\n");
-//		}
-//		System.out.print("\n");
-//		System.out.print("\n");
+
 		for(int i=0;i<san.length();i++){
 			if(san.charAt(i)=='+'){
 				san = san.substring(0,san.length()-1);
@@ -609,14 +573,7 @@ public class WsanToFenConverter {
 		
 		
 		
-//		for(int i=0;i<8;i++){
-//			for(int j=0;j<8;j++){
-//				System.out.print(mat1[i][j]+" ");
-//	
-//				
-//			}
-//			System.out.print("\n");
-//		}
+
 		String newfen="";
 		int count=0;
 		for(int i=0;i<8;i++){
@@ -642,7 +599,7 @@ public class WsanToFenConverter {
 			}
 			
 		}
-//		System.out.println(newfen);
+
 		
 		
 		

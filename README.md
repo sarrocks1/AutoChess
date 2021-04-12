@@ -1,5 +1,5 @@
 # AutoChess :
-- An effort to automate chessplay using Selenium and TestNG on chess.com.
+- An effort to automate chessplay using Selenium, TestNG and Stockfish API , on chess.com.
 
 
 # To Use : 

@@ -11,7 +11,7 @@ public class connector {
 	private Process engineProcess;
 	private BufferedReader processReader;
 	private OutputStreamWriter processWriter;
-	private static final String Path = "C:\\Users\\saru1\\eclipse-workspace\\chessTrial\\Connector\\stockfish.exe";
+	private static final String Path = System.getProperty("user.dir")+"\\Connector\\stockfish.exe";
 	
 	public boolean startEngine() {
 		try {

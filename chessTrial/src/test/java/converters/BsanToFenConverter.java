@@ -45,16 +45,7 @@ public class BsanToFenConverter {
 			}
 			
 		}
-//		for(int i=0;i<8;i++){
-//			for(int j=0;j<8;j++){
-//				System.out.print(mat1[i][j]+" ");
-//	
-//				
-//			}
-//			System.out.print("\n");
-//		}
-//		System.out.println();
-//		System.out.println();
+
 		if((san.charAt(0)=='a'||san.charAt(0)=='b'||san.charAt(0)=='c'||san.charAt(0)=='d'||san.charAt(0)=='e'||san.charAt(0)=='f'||san.charAt(0)=='g'||san.charAt(0)=='h')&&san.length()==2){
 			
 			
@@ -605,15 +596,7 @@ public class BsanToFenConverter {
 			
 		}
 		
-//		for(int i=0;i<8;i++){
-//			for(int j=0;j<8;j++){
-//				System.out.print(mat1[i][j]+" ");
-//	
-//				
-//			}
-//			System.out.print("\n");
-//		}
-//		System.out.println(newfen);
+
 		
 		return newfen;
 	}

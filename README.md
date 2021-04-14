@@ -3,8 +3,13 @@
 
 
 # To Use : 
+1. By Executing Java File
 - Clone or Download the Zip File and execute TC_PlayGame.java file (IDE is prefered).
 - Make sure you have TestNG installed on your IDE.
+2. By Executing Batch File
+
+- Replace "path-to-workspace" with your workspace path in "run.bat" file.
+- Run the "run.bat" file.
 
 
 # Features : 

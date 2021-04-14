@@ -35,13 +35,7 @@ public class connector {
 		}
 	}
 	
-	public String getBestMove(String fen, int waitTime) throws IOException, InterruptedException {
-		
-		sendCommand("position fen " + fen);
-		sendCommand("go movetime " + waitTime);
-		return getOutput(waitTime + 20).split("bestmove ")[0].split(" ")[0];
-		
-	}
+	
 	public String getOutput(int waitTime) throws IOException, InterruptedException {
 		StringBuffer buffer = new StringBuffer();
 		try {

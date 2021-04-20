@@ -514,15 +514,15 @@ public class BsanToFenConverter {
 		}
 		else if(san.charAt(0)=='O'&&san.length()==3){
 			mat1[0][7] = ".";
-			mat1[0][6] = "K";
-			mat1[0][5] = "R";
+			mat1[0][6] = "k";
+			mat1[0][5] = "r";
 			mat1[0][4] = ".";
 		}
 		else if(san.charAt(0)=='O'&&san.length()==5){
 			mat1[0][4] = ".";
 			mat1[0][0] = ".";
-			mat1[0][3] = "R";
-			mat1[0][2] = "K";
+			mat1[0][3] = "r";
+			mat1[0][2] = "k";
 		}
 		else if(san.charAt(2)=='x'&&san.length()==5){
 			int x = larr.indexOf(san.charAt(3));

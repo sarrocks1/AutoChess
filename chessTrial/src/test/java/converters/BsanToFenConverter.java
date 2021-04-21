@@ -272,19 +272,19 @@ public class BsanToFenConverter {
 				}
 			}
 			else if(san.charAt(0)=='Q'){
-				String ch = Character.toString(Character.toLowerCase(san.charAt(0)));
+				String ch = "q";
 				int x = larr.indexOf(san.charAt(2));
 				int y = 8-Integer.parseInt(String.valueOf(san.charAt(3)));
-				int counter = 1;
-				for(int i=7;counter<=7;i--){
-					counter++;
+				
+				for(int i=7;i>=0;i--){
+					
 					for(int j=0;j<8;j++){
 							if((mat1[i][j]).equals(ch)){
 							mat1[i][j]=".";
+							mat1[y][x]=ch;
+							break;
 						}
-						if(i==y){
-							mat1[i][x]=ch;
-						}
+						
 					}
 					
 				}
